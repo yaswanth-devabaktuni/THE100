@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card-text {
+  margin: 5px 0;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: block;
+}
+
+
+.nav-item
+{
+    padding: 0 18px;
+}
+.navbar-brand
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Ubuntu;
+}
+
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: Montserrat;
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    background-color: #5EAAA8;
+    top: 0;
+    width: 100%;
+    padding-bottom: 3px;
+    z-index: 100;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #212529;
+    /* color: #eeeeee; */
+    text-align: center;
+    padding: 1px 18px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+#main-thing
+{
+  padding-top: 3%;
+}
+
+@media (max-width:1008px)
+{
+  #main-thing
+  {
+    padding-top: 13%;
+  }
+}
